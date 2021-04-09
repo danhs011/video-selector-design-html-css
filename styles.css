@@ -107,16 +107,13 @@ body{
 }
 
 .carousel{
+    display: flex;
     width: 100%;
-    overflow: scroll;
+    /* overflow: scroll; */
     padding-left: 30px;
     padding-right: -50px;
     position: relative;
 }
-/* .carousel::-webkit-scrollbar{
-    background: #8F57FD;
-    scrollbar-color: black;
-} */
 
 .carousel__container{
     transition: 450ms -webkit-transform;
